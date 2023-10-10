@@ -1,0 +1,95 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, ComCtrls, StdCtrls, ImgList, Buttons, ActnList;
+
+type
+  TFrmPrincipal = class(TForm)
+    PnlTitulo: TPanel;
+    PgCntrlPrincipal: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet3: TTabSheet;
+    GroupBox1: TGroupBox;
+    Lbl_Caracteres: TLabel;
+    EdtCaracteres: TEdit;
+    BtnExibirDataHora: TBitBtn;
+    ImageList1: TImageList;
+    ActionList1: TActionList;
+    AcMostrarForm: TAction;
+    PnlRodapeAba1: TPanel;
+    AcIrAba2: TAction;
+    BtnIrAba2: TBitBtn;
+    PnlRodapeAba2: TPanel;
+    BtnIrAba3: TBitBtn;
+    AcIrAba3: TAction;
+    procedure FormShow(Sender: TObject);
+    procedure EdtCaracteresEnter(Sender: TObject);
+    procedure EdtCaracteresExit(Sender: TObject);
+    procedure AcMostrarFormExecute(Sender: TObject);
+    procedure AcIrAba2Execute(Sender: TObject);
+    procedure AcIrAba3Execute(Sender: TObject);
+  private
+
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.AcIrAba3Execute(Sender: TObject);
+begin
+  PgCntrlPrincipal.ActivePageIndex := 2;
+end;
+
+procedure TFrmPrincipal.AcMostrarFormExecute(Sender: TObject);
+begin
+//
+end;
+
+procedure TFrmPrincipal.AcIrAba2Execute(Sender: TObject);
+begin
+  PgCntrlPrincipal.ActivePageIndex := 1;
+end;
+
+procedure TFrmPrincipal.EdtCaracteresEnter(Sender: TObject);
+begin
+  EdtCaracteres.Color := $00B9FFFF;
+end;
+
+procedure TFrmPrincipal.EdtCaracteresExit(Sender: TObject);
+begin
+  if EdtCaracteres.Text = '' then
+  begin
+    MessageDlg('Você não digitou nenhum conteúdo',
+         mtWarning, [mbOK], 0);
+    EdtCaracteres.SetFocus;
+  end
+  else
+    if Length(EdtCaracteres.Text) <> 4 then
+    begin
+      MessageDlg('Você não digitou 4 caracteres',
+           mtError, [mbOK], 0);
+      EdtCaracteres.SetFocus;
+      EdtCaracteres.SelectAll;
+    end
+    else
+      EdtCaracteres.Color := clWindow;
+end;
+
+procedure TFrmPrincipal.FormShow(Sender: TObject);
+begin
+  PnlTitulo.Caption := 'Mudando o capition do Painel com onShow';
+  PnlTitulo.Color := $00B9FFFF;
+end;
+
+end.

@@ -1,0 +1,143 @@
+
+Data: 06/10/2023 10:36:54
+Classe do Erro: EAddError
+Mensagem do Erro: Erro ao realizar a opereção de adição!
+
+Data: 06/10/2023 10:36:59
+Classe do Erro: ESubError
+Mensagem do Erro: Erro ao realizar a opereção de subtração!
+
+Data: 06/10/2023 11:03:41
+Classe do Erro: EAddError
+Mensagem do Erro: Erro ao realizar a opereção de adição!
+
+Data: 09/10/2023 08:28:15
+Classe do Erro: EAddError
+Mensagem do Erro: Erro ao realizar a opereção de adição!
+
+Data: 09/10/2023 09:20:13
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 09:20:19
+Classe do Erro: EIdSocketError
+Mensagem do Erro: Socket Error # 10061
+Connection refused.
+
+Data: 09/10/2023 09:21:59
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 09:22:24
+Classe do Erro: EIdProtocolReplyError
+Mensagem do Erro: 5.7.8 Error: authentication failed: UGFzc3dvcmQ6
+
+
+Data: 09/10/2023 09:34:32
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 09:34:43
+Classe do Erro: EIdProtocolReplyError
+Mensagem do Erro: 5.7.8 Error: authentication failed: UGFzc3dvcmQ6
+
+
+Data: 09/10/2023 09:39:24
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 09:39:35
+Classe do Erro: EIdOSSLConnectError
+Mensagem do Erro: Error connecting with SSL.
+
+Data: 09/10/2023 09:41:23
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 10:07:33
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 10:07:44
+Classe do Erro: EclSocketError
+Mensagem do Erro: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Data: 09/10/2023 10:12:14
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 10:12:22
+Classe do Erro: EclSocketError
+Mensagem do Erro: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Data: 09/10/2023 10:14:16
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 10:15:12
+Classe do Erro: EclSocketError
+Mensagem do Erro: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Data: 09/10/2023 10:15:30
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 10:17:26
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 10:23:37
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 10:32:55
+Classe do Erro: ESubError
+Mensagem do Erro: Erro ao realizar a opereção de subtração!
+
+Data: 09/10/2023 10:36:37
+Classe do Erro: EAddError
+Mensagem do Erro: Erro ao realizar a opereção de adição!
+
+Data: 09/10/2023 10:42:56
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 11:02:50
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 11:03:01
+Classe do Erro: EclSocketError
+Mensagem do Erro: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+Data: 09/10/2023 11:03:24
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 11:05:54
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 11:07:44
+Classe do Erro: ESubError
+Mensagem do Erro: Erro ao realizar a opereção de subtração!
+
+Data: 09/10/2023 11:18:27
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 11:19:16
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 11:22:45
+Classe do Erro: EDivError
+Mensagem do Erro: Erro ao realizar a opereção de divisão!
+
+Data: 09/10/2023 11:24:26
+Classe do Erro: EMultError
+Mensagem do Erro: Erro ao realizar a opereção de multiplicação!
+
+Data: 09/10/2023 11:48:23
+Classe do Erro: ESubError
+Mensagem do Erro: Erro ao realizar a opereção de subtração!

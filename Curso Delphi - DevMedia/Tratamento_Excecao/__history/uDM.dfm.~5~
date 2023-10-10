@@ -1,0 +1,10 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 252
+  Width = 338
+  object AppEvents: TApplicationEvents
+    OnException = AppEventsException
+    Left = 152
+    Top = 88
+  end
+end

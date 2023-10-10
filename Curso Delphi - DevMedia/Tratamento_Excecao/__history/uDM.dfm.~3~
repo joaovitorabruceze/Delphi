@@ -1,0 +1,10 @@
+object DtM: TDtM
+  OldCreateOrder = False
+  Height = 300
+  Width = 446
+  object AppEvents: TApplicationEvents
+    OnException = AppEventsException
+    Left = 232
+    Top = 40
+  end
+end

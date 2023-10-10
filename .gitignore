@@ -1,0 +1,5 @@
+config.ini
+*.exe
+*.identcache
+*.dproj.local
+*.dcu

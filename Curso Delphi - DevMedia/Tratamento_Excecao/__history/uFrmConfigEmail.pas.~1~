@@ -1,0 +1,24 @@
+unit uConfigEmail;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFrmConfigEmail = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmConfigEmail: TFrmConfigEmail;
+
+implementation
+
+{$R *.dfm}
+
+end.

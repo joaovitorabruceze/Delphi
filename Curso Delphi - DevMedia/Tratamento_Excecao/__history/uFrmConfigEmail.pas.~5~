@@ -1,0 +1,38 @@
+unit uFrmConfigEmail;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Buttons, IniFile;
+
+type
+  TFrmConfigEmail = class(TForm)
+    LblHost: TLabeledEdit;
+    LblUsuario: TLabeledEdit;
+    LblSenha: TLabeledEdit;
+    LblEmail: TLabeledEdit;
+    LblRemetente: TLabeledEdit;
+    BtBtnOk: TBitBtn;
+    procedure FormCreate(Sender: TObject);
+  private
+    IniFiles: TIniFile;
+
+  public
+
+  end;
+
+var
+  FrmConfigEmail: TFrmConfigEmail;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmConfigEmail.FormCreate(Sender: TObject);
+begin
+  IniFiles:= TIniFile.create('config.ini');
+  Lbl
+end;
+
+end.

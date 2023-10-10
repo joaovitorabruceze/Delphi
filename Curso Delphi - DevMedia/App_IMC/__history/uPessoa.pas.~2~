@@ -1,0 +1,16 @@
+unit uPessoa;
+
+interface
+
+  Type RDadosPessoa = record
+      Altura: Double;
+      Peso: Double;
+      Sexo: String;
+      IMC: String;
+  end;
+
+  var PDadosPessoa: RDadosPessoa;
+
+implementation
+
+end.

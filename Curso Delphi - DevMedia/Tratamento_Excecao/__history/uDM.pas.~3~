@@ -1,0 +1,41 @@
+unit uDM;
+
+interface
+
+uses
+  SysUtils, Classes, AppEvnts, Dialogs, Forms;
+
+type
+  TDtM = class(TDataModule)
+  AppEvents: TApplicationEvents;
+  procedure AppEventsException(Sender: TObject; E: Exception);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DtM: TDtM;
+
+implementation
+
+
+{$R *.dfm}
+
+procedure TDtM.AppEventsException(Sender: TObject; E: Exception);
+var
+  Log: Tstrings;
+begin
+  Log:= TStringList.Create;
+  if FileExists(ExtractFilePath(Application.ExeName)+'log.txt') then
+    Log.LoadFromFile(ExtractFilePath(Application.ExeName)+'log.txt');
+    Log.Add('');
+    Log.Add('Data: ' + FormatDateTime('c',Now));
+    Log.Add('Classe do Erro: ' + E.ClassName);
+    Log.Add('Mensagem do Erro: ' + E.Message);
+    Log.SaveToFile(ExtractFilePath(Application.ExeName)+'log.txt');
+    ShowMessage('Ocorreu um erro! Verifique o log para mais informações.');
+end;
+
+end.
