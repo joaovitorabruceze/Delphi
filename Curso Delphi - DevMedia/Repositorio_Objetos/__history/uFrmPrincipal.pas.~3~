@@ -1,0 +1,27 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls;
+
+type
+  TFrmPrincipal = class(TForm)
+    PnlPrincipal: TPanel;
+    BtnTela1: TButton;
+    BtnTela2: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,15 @@
+program Heranca;
+
+uses
+  Forms,
+  uFrmPrincipal in 'uFrmPrincipal.pas' {FrmPrincipal},
+  uFrmBase in 'uFrmBase.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

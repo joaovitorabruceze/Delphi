@@ -1,0 +1,43 @@
+inherited FrmTela1: TFrmTela1
+  Caption = 'FrmTela1'
+  ClientWidth = 251
+  ExplicitWidth = 267
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LblEdtUser: TLabeledEdit
+    Left = 72
+    Top = 40
+    Width = 121
+    Height = 21
+    EditLabel.Width = 36
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Usu'#225'rio'
+    TabOrder = 0
+  end
+  object LblEdtSenha: TLabeledEdit
+    Left = 72
+    Top = 91
+    Width = 121
+    Height = 21
+    EditLabel.Width = 30
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Senha'
+    TabOrder = 1
+  end
+  object BtnLogar: TButton
+    Left = 96
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Logar'
+    TabOrder = 2
+  end
+  object Panel1: TPanel
+    Left = 24
+    Top = 29
+    Width = 185
+    Height = 41
+    Caption = 'Panel1'
+    TabOrder = 3
+  end
+end

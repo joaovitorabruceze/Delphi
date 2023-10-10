@@ -1,0 +1,29 @@
+inherited FrmTela1: TFrmTela1
+  Caption = 'FrmTela1'
+  ClientHeight = 202
+  ClientWidth = 278
+  ExplicitWidth = 294
+  ExplicitHeight = 241
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LabeledEdit1: TLabeledEdit
+    Left = 72
+    Top = 64
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit1'
+    TabOrder = 0
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 72
+    Top = 123
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit1'
+    TabOrder = 1
+  end
+end
